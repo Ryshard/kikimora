@@ -1,0 +1,11 @@
+{
+  "name": "kikimora",
+  "version": "1.0.0",
+  "description": "expenses assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Gabriel Garus",
+  "license": "ISC"
+}
