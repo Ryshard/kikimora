@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 
 class App extends Component {
     render() {
-        return
+        return (
         <div>
             <h1>Kikimora</h1>
         </div>
+        );
     }
 }
 
