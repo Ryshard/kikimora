@@ -4,7 +4,7 @@ class App extends Component {
     render() {
         return (
         <div>
-            <h1>Kikimora</h1>
+            <h1>Kikimora JS</h1>
         </div>
         );
     }
