@@ -5,7 +5,7 @@ class App extends Component {
     render() {
         return (
         <div>
-            <h1>Kikimora JS</h1>
+            <h1>K JS</h1>
             <SampleForm />
         </div>
         );

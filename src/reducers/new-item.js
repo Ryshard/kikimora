@@ -1,13 +1,13 @@
-const newItem = (state = [], action) => {
+const newItem = (state = {}, action) => {
     switch (action.type) {
       case 'ON_INPUT_EDIT':
-        return [
+        console.log('ON_INPUT_EDIT');
+        return {
           ...state,
-          {
-            text: action.text
-          }
-        ]
+          text: action.text
+        }
       default:
+        console.log('default -> action:', action.type);
         return state
     }
 };
