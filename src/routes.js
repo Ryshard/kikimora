@@ -1,10 +1,9 @@
 import React from 'react';
-import { Route } from 'react-router';
-import Template from 'components/template';
+import { Route } from 'react-router-dom';
 import Home from 'containers/home';
 
-export const routes = (
-	<Route component={Layout}>
-		<Route path="/" component={Home}/>
-	</Route>
+const routes = (
+	<Route path="/" component={Home}/>
 );
+
+export default routes;

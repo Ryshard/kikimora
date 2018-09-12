@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-export class Template extends React.Component {
+class Template extends React.Component {
   	constructor(props) {
     	super(props);
     	this.state = {};
@@ -9,9 +9,11 @@ export class Template extends React.Component {
 
 	render() {
 		const { children } = this.props;
-
+		console.log('children', children);
 		return (
 			<div key="1">{children}</div>
 		);
 	}
 };
+
+export default Template;
