@@ -6,7 +6,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.join(__dirname, '/docs'),
-        filename: 'index_bundle.js'
+        filename: 'index_bundle.js',
+        publicPath: '/'
     },
     resolve: {
         modules: [path.resolve(__dirname, './src'), 'node_modules'],
@@ -27,8 +28,11 @@ module.exports = {
         ]
     },
     plugins: [
-            new HtmlWebpackPlugin({
-                template: './src/index.html'
-            })
-        ]
+        new HtmlWebpackPlugin({
+            template: './src/index.html'
+        })
+    ],
+    devServer: {
+        historyApiFallback: true,
+    }
 }
