@@ -14,7 +14,7 @@ class Home extends React.Component {
 			<h1>Home</h1>
 			<nav>
 				<Link to="/">Home</Link>
-				<Link to="/addproduct">Add product</Link>
+				<Link to="/add-product">Add product</Link>
 			</nav>
 			<hr />
 			</div>
