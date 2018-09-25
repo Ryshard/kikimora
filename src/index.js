@@ -7,7 +7,7 @@ import rootReducer from './reducers';
 import routes from './routes';
 import Template from 'components/template/index.js';
 
-console.log('rootReducer', rootReducer);
+// console.log('rootReducer', rootReducer);
 const store = createStore(rootReducer)
 
 ReactDOM.render(

@@ -9,7 +9,7 @@ class Template extends React.Component {
 
 	render() {
 		const { children } = this.props;
-		console.log('children', children);
+		// console.log('children', children);
 		return (
 			<div key="1">{children}</div>
 		);

@@ -6,6 +6,7 @@ import AddProduct  from 'containers/add-product';
 const routes = (
 	<div>
 	<Route exact path="/" component={Home}/>
+	<Route exact path="/index.html" component={Home}/>
 	<Route path="/add-product" component={AddProduct}/>
 	</div>
 );
